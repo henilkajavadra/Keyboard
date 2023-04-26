@@ -1,0 +1,44 @@
+<div class="col">
+    <div>
+      <input type="text" [value]="displayValue">
+    </div>
+  
+    <div class="keyboard-container">
+      <div class="keyboard">
+        <div class="row">
+          <button (click)="handleButtonClick('9')">9</button>
+          <button (click)="handleButtonClick('8')">8</button>
+          <button (click)="handleButtonClick('7')">7</button>
+        </div>
+        <div class="row">
+          <button (click)="handleButtonClick('6')">6</button>
+          <button (click)="handleButtonClick('5')">5</button>
+          <button (click)="handleButtonClick('4')">4</button>
+        </div>
+        <div class="row">
+          <button (click)="handleButtonClick('3')">3</button>
+          <button (click)="handleButtonClick('2')">2</button>
+          <button (click)="handleButtonClick('1')">1</button>
+        </div>
+        <div class="row">
+          <button class="wide-button" (click)="handleButtonClick('0')">0</button>
+          <button (click)="handleButtonClick('.')">.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <p>Layout B</p>
+    <label class="lable">Please enter:</label>
+    <h1 class="prompt">587942</h1>
+  </div>
+  
+  <!-- <div class="results">
+    <div>Task Complition Time: {{elapsedTime}} seconds</div>
+    <div>Typing Accuracy: {{typingAccuracy}}%</div>
+    <div>Typing Errors: {{typingErrors}}</div>
+    <div>Typing Speed: {{typingSpeed}} characters per minute</div>
+    <div>Start Time: {{startTime}}</div>
+    <div>End Time: {{endTime}}</div>
+  </div> -->

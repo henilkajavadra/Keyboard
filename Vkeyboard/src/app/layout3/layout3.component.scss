@@ -1,0 +1,94 @@
+.keyboard-container {
+    position: fixed;
+    bottom: 56px;
+    right: 56px;
+    margin: 20px;
+  }
+  
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  button {
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: none;
+    background-color: #2E2E2E;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1E1E1E;
+  }
+  
+  button:active {
+    background-color: #3E3E3E;
+  }
+  
+  .wide-button {
+    width: 144px;
+  }
+  
+  #output {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  input[type="text"] {
+    text-align: end;
+    border: none;
+    background-color: transparent;
+    font-size: 64px;
+    width: 94%;
+    margin-top: 100px;
+  }
+  
+
+  .prompt{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+  }
+
+  .lable{
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3E3E3E;
+    padding-left: 100px;
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3E3E3E;
+    padding-left: 100px;
+  }
+
+  .results{
+      font-size: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #3E3E3E;
+      padding-left: 100px;
+      margin-top: 52px;
+  }
+
+  h1{
+    margin: 12px 0 0 0 !important;
+  }
+
+  .col{
+    margin-top: 20px;
+  }
